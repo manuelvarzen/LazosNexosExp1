@@ -1,5 +1,4 @@
 a { color: #4B58A6; }
-a:hover { color: #4B58A6; }
 
 #map_canvas img {
   max-width: none;
@@ -19,15 +18,10 @@ a:hover { color: #4B58A6; }
           background-clip: padding-box; 
 }
 
-.filter-yellow { background-color: #FBF358; }
 .filter-green { background-color: #00E13C; }
+.filter-yellow { background-color: #FFF300; }
+.filter-orange { background-color: #FF8000; }
+.filter-red { background-color: #FF0000; }
 .filter-blue { background-color: #5781FC; }
 .filter-purple { background-color: #7C54FB; }
-.filter-red { background-color: #FB6353; }
 
-canvas {-ms-touch-action: double-tap-zoom;}
-
-/* customizations for iframe template */
-.iframe #map_canvas { height: 500px; }
-.iframe .well { margin-bottom: 5px; }
-.iframe .alert { margin-top: 5px; }
